@@ -1,0 +1,209 @@
+{
+  "video_path": "test.mp4",
+  "topics": [
+    {
+      "keyword": "Introduction & K‑Nearest Neighbors",
+      "start": 0.0,
+      "end": 124.16317,
+      "questions": [
+        {
+          "prompt": "In the example, which song did Paul definitely like based on his past choices?",
+          "options": [
+            "Neither song",
+            "Song A",
+            "Both songs",
+            "Song B"
+          ],
+          "correct_index": 1,
+          "explanation": "The transcript states that Paul likes the song with fast tempo and soaring intensity, which is Song A, and dislikes the relaxed, light one."
+        },
+        {
+          "prompt": "Why is classifying Song B more difficult than Song A?",
+          "options": [
+            "Song B is on a clear boundary between liked and disliked songs.",
+            "Song B was not part of Paul's past listening history.",
+            "Song B is too far from any known songs.",
+            "Song B belongs to the same category as Song A."
+          ],
+          "correct_index": 0,
+          "explanation": "Song B lies in the middle of tempo and intensity, making it unclear whether Paul would like it, unlike the clear case of Song A."
+        },
+        {
+          "prompt": "According to the transcript, what is the main difference between human learning and machine learning?",
+          "options": [
+            "Humans follow instructions, while machines learn from past data.",
+            "Humans learn from past experiences, while machines learn from data.",
+            "Humans learn from data, while machines learn from instructions.",
+            "Humans learn from data while machines follow fixed instructions."
+          ],
+          "correct_index": 1,
+          "explanation": "The transcript says humans learn from their past experiences, whereas machines are taught to learn from past data and reason."
+        },
+        {
+          "prompt": "In the example, what is a reasonable method to decide whether Paul likes Song B?",
+          "options": [
+            "Assume he will like Song B because it is in the middle.",
+            "Ask Paul directly whether he likes it.",
+            "Draw a circle around Song B to examine its nearest neighbors.",
+            "Ignore Song B and make no decision."
+          ],
+          "correct_index": 2,
+          "explanation": "The transcript mentions drawing a circle around Song B, implying a neighbor-based approach to classification."
+        }
+      ]
+    },
+    {
+      "keyword": "Learning Paradigms (Supervised, Unsupervised, Reinforcement)",
+      "start": 124.16317,
+      "end": 281.56635,
+      "questions": [
+        {
+          "prompt": "What type of machine learning uses labeled data, such as coin weights labeled with currency, to train a model?",
+          "options": [
+            "Reinforcement learning",
+            "None of the above",
+            "Unsupervised learning",
+            "Supervised learning"
+          ],
+          "correct_index": 3,
+          "explanation": "The transcript states that supervised learning uses labeled data to train the model."
+        },
+        {
+          "prompt": "In the cricket dataset example, why does the model identify clusters of players without predefined categories?",
+          "options": [
+            "Because it uses supervised learning",
+            "Because it uses unsupervised learning",
+            "Because the dataset was too small",
+            "Because it uses reinforcement learning"
+          ],
+          "correct_index": 1,
+          "explanation": "The transcript explains that unsupervised learning finds patterns in unlabeled data, such as the player clusters."
+        },
+        {
+          "prompt": "According to the transcript, which feature is used to predict the currency of a coin in the supervised learning example?",
+          "options": [
+            "Diameter of the coin",
+            "Material of the coin",
+            "Weight of the coin",
+            "Color of the coin"
+          ],
+          "correct_index": 2,
+          "explanation": "The example describes using the coin’s weight as the feature to predict its currency."
+        },
+        {
+          "prompt": "Which statement best describes reinforcement learning as mentioned in the transcript?",
+          "options": [
+            "It learns from labeled data",
+            "It uses K-nearest neighbors algorithm",
+            "It is reward based learning",
+            "It identifies patterns in unlabeled data"
+          ],
+          "correct_index": 2,
+          "explanation": "The transcript refers to reinforcement learning as reward based learning."
+        }
+      ]
+    },
+    {
+      "keyword": "Model Workflow & Applications",
+      "start": 281.56635,
+      "end": 425.04953,
+      "questions": [
+        {
+          "prompt": "According to the flowchart described, what is the next step when the machine learning model's output is incorrect?",
+          "options": [
+            "Feedback is provided and the model predicts again until it learns.",
+            "All training data is deleted.",
+            "The model stops running.",
+            "The incorrect output is accepted as final."
+          ],
+          "correct_index": 0,
+          "explanation": "The transcript states that if the output is wrong, we give feedback to the training model and ask it to predict until it learns."
+        },
+        {
+          "prompt": "In the example where the system labels a dog's image as a cat and receives negative feedback, which type of learning is illustrated?",
+          "options": [
+            "Supervised learning",
+            "Unsupervised learning",
+            "Cluster analysis",
+            "Reinforcement learning"
+          ],
+          "correct_index": 3,
+          "explanation": "The text explains that the machine learns from negative feedback and is an example of reinforcement learning."
+        },
+        {
+          "prompt": "Which application of machine learning, mentioned in the excerpt, is used for identifying fraudulent transactions?",
+          "options": [
+            "Healthcare diagnostics",
+            "Dynamic surge pricing",
+            "Sentiment analysis on social media",
+            "Fraud detection in finance"
+          ],
+          "correct_index": 3,
+          "explanation": "The transcript lists fraud detection in the finance sector as one of the machine learning applications."
+        },
+        {
+          "prompt": "What key factor does the transcript identify as enabling machine learning in today’s era?",
+          "options": [
+            "The huge amount of data generated every minute",
+            "The lack of computational power in modern computers",
+            "The reduction of computer memory capacities",
+            "The availability of small, curated datasets"
+          ],
+          "correct_index": 0,
+          "explanation": "The passage notes that massive data availability and improved computational power allow machine learning to thrive."
+        }
+      ]
+    },
+    {
+      "keyword": "Real‑World Examples & Conclusion",
+      "start": 425.04953,
+      "end": 465.6895,
+      "questions": [
+        {
+          "prompt": "Which pricing model is mentioned as a way to ensure people needing a cab can get one during high demand periods?",
+          "options": [
+            "Surge pricing",
+            "Flat rate pricing",
+            "Hourly subscription",
+            "Negotiated fare"
+          ],
+          "correct_index": 0,
+          "explanation": "The transcript states that surge pricing is used to ensure those who need a cab can get one during high demand periods."
+        },
+        {
+          "prompt": "What is the primary purpose of predictive modeling as described in the transcript?",
+          "options": [
+            "To predict where demand will be high for taxis",
+            "To schedule vehicle maintenance",
+            "To determine optimal advertising campaigns",
+            "To forecast stock prices"
+          ],
+          "correct_index": 0,
+          "explanation": "The transcript says predictive modeling is used to predict where the demand will be high so drivers can meet demand and minimize search pricing."
+        },
+        {
+          "prompt": "According to the transcript, what can Siri remind you to do?",
+          "options": [
+            "Book a cab at 6 pm",
+            "Navigate to the nearest gas station",
+            "Check the weather forecast",
+            "Schedule a meeting"
+          ],
+          "correct_index": 0,
+          "explanation": "Siri is used in the transcript to remind the user to book a cab at 6 pm."
+        },
+        {
+          "prompt": "What is the suggested next action for viewers at the end of the transcript?",
+          "options": [
+            "Read a related research paper",
+            "Watch more videos on the topic",
+            "Download a new app",
+            "Join a machine learning forum"
+          ],
+          "correct_index": 1,
+          "explanation": "The transcript concludes with, \"keep watching this space for more interesting videos until then happy learning.\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Secrets — never commit real .env files
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Project-specific
+backend/storage/
+pytest_output.txt
+po2.txt
+
+# Logs
+*.log

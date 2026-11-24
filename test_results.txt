@@ -1,0 +1,51 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.1, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\laksh\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default'
+rootdir: C:\Users\laksh\Downloads\adaptive learning
+plugins: anyio-4.8.0, hypothesis-6.170.17
+collecting ... collected 41 items
+
+backend/app/tests/test_question_validation.py::test_valid_four_questions_returns_true PASSED [  2%]
+backend/app/tests/test_question_validation.py::test_valid_all_correct_index_values PASSED [  4%]
+backend/app/tests/test_question_validation.py::test_valid_non_empty_strings_in_options PASSED [  7%]
+backend/app/tests/test_question_validation.py::test_missing_prompt_returns_false PASSED [  9%]
+backend/app/tests/test_question_validation.py::test_missing_options_returns_false PASSED [ 12%]
+backend/app/tests/test_question_validation.py::test_missing_correct_index_returns_false PASSED [ 14%]
+backend/app/tests/test_question_validation.py::test_missing_explanation_returns_false PASSED [ 17%]
+backend/app/tests/test_question_validation.py::test_options_has_3_elements_returns_false PASSED [ 19%]
+backend/app/tests/test_question_validation.py::test_options_has_5_elements_returns_false PASSED [ 21%]
+backend/app/tests/test_question_validation.py::test_options_is_empty_returns_false PASSED [ 24%]
+backend/app/tests/test_question_validation.py::test_options_has_1_element_returns_false PASSED [ 26%]
+backend/app/tests/test_question_validation.py::test_correct_index_negative_one_returns_false PASSED [ 29%]
+backend/app/tests/test_question_validation.py::test_correct_index_four_returns_false PASSED [ 31%]
+backend/app/tests/test_question_validation.py::test_correct_index_large_positive_returns_false PASSED [ 34%]
+backend/app/tests/test_question_validation.py::test_correct_index_large_negative_returns_false PASSED [ 36%]
+backend/app/tests/test_question_validation.py::test_fewer_than_4_questions_returns_false PASSED [ 39%]
+backend/app/tests/test_question_validation.py::test_more_than_4_questions_returns_false PASSED [ 41%]
+backend/app/tests/test_question_validation.py::test_zero_questions_returns_false PASSED [ 43%]
+backend/app/tests/test_question_validation.py::test_one_question_returns_false PASSED [ 46%]
+backend/app/tests/test_question_validation.py::test_prompt_not_a_string_returns_false PASSED [ 48%]
+backend/app/tests/test_question_validation.py::test_prompt_none_returns_false PASSED [ 51%]
+backend/app/tests/test_question_validation.py::test_options_not_a_list_returns_false PASSED [ 53%]
+backend/app/tests/test_question_validation.py::test_options_contains_non_string_returns_false PASSED [ 56%]
+backend/app/tests/test_question_validation.py::test_options_contains_none_returns_false PASSED [ 58%]
+backend/app/tests/test_question_validation.py::test_correct_index_is_float_returns_false PASSED [ 60%]
+backend/app/tests/test_question_validation.py::test_correct_index_is_bool_returns_false PASSED [ 63%]
+backend/app/tests/test_question_validation.py::test_correct_index_is_string_returns_false PASSED [ 65%]
+backend/app/tests/test_question_validation.py::test_explanation_not_a_string_returns_false PASSED [ 68%]
+backend/app/tests/test_question_validation.py::test_explanation_none_returns_false PASSED [ 70%]
+backend/app/tests/test_question_validation.py::test_item_not_a_dict_returns_false PASSED [ 73%]
+backend/app/tests/test_question_validation.py::test_data_is_none_returns_false PASSED [ 75%]
+backend/app/tests/test_question_validation.py::test_data_is_dict_returns_false PASSED [ 78%]
+backend/app/tests/test_question_validation.py::test_data_is_string_returns_false PASSED [ 80%]
+backend/app/tests/test_question_validation.py::test_data_is_integer_returns_false PASSED [ 82%]
+backend/app/tests/test_question_validation.py::test_never_raises[None] PASSED [ 85%]
+backend/app/tests/test_question_validation.py::test_never_raises[42] PASSED [ 87%]
+backend/app/tests/test_question_validation.py::test_never_raises[3.14] PASSED [ 90%]
+backend/app/tests/test_question_validation.py::test_never_raises[string] PASSED [ 92%]
+backend/app/tests/test_question_validation.py::test_never_raises[bad_input4] PASSED [ 95%]
+backend/app/tests/test_question_validation.py::test_never_raises[bad_input5] PASSED [ 97%]
+backend/app/tests/test_question_validation.py::test_never_raises[bad_input6] PASSED [100%]
+
+============================= 41 passed in 0.84s ==============================

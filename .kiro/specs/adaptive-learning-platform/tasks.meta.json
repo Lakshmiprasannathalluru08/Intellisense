@@ -1,0 +1,353 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold project structure, environment config, and shared data models": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252852935
+      },
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252870293
+      },
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795253085907
+      }
+    ],
+    "2.1 Implement `backend/app/services/audio_extractor.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252854587
+      },
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795253092743
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254257240
+      }
+    ],
+    "3.1 Implement `backend/app/services/transcriber.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252854838
+      },
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795253098641
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254263308
+      }
+    ],
+    "4.1 Implement `validate_topics` in `backend/app/services/topic_detector.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252855118
+      },
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795253105655
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254270112
+      }
+    ],
+    "4.2 Implement `snap_end_time` in `backend/app/services/topic_detector.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252855271
+      },
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795253114670
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254277422
+      }
+    ],
+    "4.7 Implement `detect_topics` in `backend/app/services/topic_detector.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252855537
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254729430
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254970216
+      }
+    ],
+    "5.1 Implement `validate_questions` in `backend/app/services/question_generator.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252855665
+      },
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795253121168
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254284851
+      }
+    ],
+    "5.4 Implement `generate_questions` in `backend/app/services/question_generator.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252855817
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255336202
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255376648
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255617665
+      }
+    ],
+    "6.1 Implement `backend/app/services/output_writer.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856015
+      },
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795253128238
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254291557
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254716720
+      }
+    ],
+    "7.1 Implement `backend/app/services/pipeline_service.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856158
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255336385
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255383550
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255625016
+      }
+    ],
+    "8.1 Implement `backend/app/jobs/pipeline_job.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856270
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255336493
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255632366
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255760172
+      }
+    ],
+    "9. Checkpoint — Ensure all unit tests pass": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856371
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255336592
+      }
+    ],
+    "10.1 Implement `backend/run_pipeline.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856467
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255336690
+      }
+    ],
+    "11.1 Write example-based unit tests for `snap_end_time` in `backend/app/tests/test_snapping.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856576
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255336828
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255768166
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795256625800
+      }
+    ],
+    "11.2 Write example-based unit tests for `validate_topics` in `backend/app/tests/test_topic_validation.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856698
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255336939
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255775567
+      }
+    ],
+    "11.3 Write example-based unit tests for `validate_questions` in `backend/app/tests/test_question_validation.py`": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856862
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255337041
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255782914
+      }
+    ],
+    "12. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "ee69f898-4480-443f-ba44-81b8b2081fdf",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795252856978
+      },
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255337138
+      }
+    ],
+    "2. Implement audio extraction stage": [
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254257401
+      }
+    ],
+    "3. Implement transcription stage": [
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254263545
+      }
+    ],
+    "6. Implement output writer": [
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254716990
+      }
+    ],
+    "4. Implement topic detection stage": [
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795254970521
+      }
+    ],
+    "5. Implement question generation stage": [
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255617851
+      }
+    ],
+    "7. Implement the pipeline orchestrator": [
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255625175
+      }
+    ],
+    "8. Implement the FastAPI background-job wrapper": [
+      {
+        "executionId": "05d83b5f-8662-48b9-b613-41b12123ff2b",
+        "chatSessionId": "sess_1d1f2229-4ca8-44c1-8349-3711796eec2a",
+        "timestamp": 1795255760351
+      }
+    ]
+  }
+}

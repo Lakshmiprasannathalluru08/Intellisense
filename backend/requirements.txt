@@ -1,0 +1,11 @@
+groq
+python-dotenv
+hypothesis
+pytest
+ffmpeg-python
+fastapi
+uvicorn
+pymongo
+bcrypt
+pyjwt
+python-multipart
